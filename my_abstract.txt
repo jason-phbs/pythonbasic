@@ -1,0 +1,270 @@
+Paper 1:
+C2N ：用于真实世界去噪的实用生成噪声建模
+Geonwoon Jang *
+Wooseok Lee *
+Sanghyun Son
+Kyoungmu Lee
+首尔国立大学欧洲经委会系ASRI
+{onwoono, adntjr4} @ gmail.com, {thstkdgus35, kyoungmu} @ snu.ac.kr
+抽象
+的基于学习的图像去噪方法已经被
+局限于对齐良好的嘈杂和干净的情况
+给出图像，或从预先合成样本
+终结噪声模型，例如高斯噪声。 虽然最近的一
+般噪声建模方法旨在
+
+Paper 2:
+用于零拍多标签分类的语义多样性学习
+Avi Ben-Cohen Nadav Zamir Emanuel Ben Baruch Itamar Friedman Lihi Zelnik-Manor
+阿里巴巴集团达摩学院
+{avi.bencohen, nadav.zamir, emanuel.benbaruch, itamar.friedman, lihi.zelnik}
+@ alibaba-inc.com摘
+要
+训练神经网络模型以识别多
+与图像相关联的多个标签，包括标识-
+看不见的标签具有挑战性，特别是对于
+描绘了许多语义上不同的标签。A
+
+Paper 3:
+描述和定位变压器的多个变化
+Yue Qiu1 *、Shintaro Yamamoto1,2 *、Kodai Nakashima1、Ryota Suzuki1、
+岩田健二1、片冈宏胜1、佐藤丰1
+1早稻田大学国立先进工业科学技术研究所（ AIST ）
+{qiu.yue, yamamoto.shintaro, nakashima.kodai, ryota.suzuki,
+kenji.iwata, hirokatsu.kataoka, yu.satou} @ aist.go.jp
+摘要
+更改字幕任务旨在检测
+场景变化前后观察到的年龄对和
+
+Paper 4:
+基于分数的点云降噪
+Shitong Luo, Wei Hu *
+Wangxuan Institute of Computer Technology
+北京大学
+{luost, forhuwei} @ pku.edu.cn
+从扫描设备获取的抽象
+点云通常
+受噪音干扰，这会影响下游任务，例如
+表面重建和分析。 A的分布
+噪声点云可以被看作是
+一组无噪声样本p (x)卷积有一些噪声
+模型n ，导致(p ∗ n) (x) ，其模式是底层
+
+Paper 5:
+卫星图像全景分割时间序列
+使用卷积时间注意网络
+Vivien Sainte Fare Garnot
+Loic Landrieu
+LASTIG, Univ. Gustave Eiffel ， ENSG ， IGN ， F-94160 Saint-Mande ，法国
+{vivien.sainte-fare-garnot,
+loic.landrieu} @ ign.fr
+摘要
+前所未有地接入多时相卫星
+agery为各种地球开辟了新的视角
+观察任务。其中，像素精确的全景细分-
+对农业地块的引导具有重要的经济和环境
+
+Paper 6:
+金字塔视觉变压器：密集预测的多功能骨干
+无卷积
+Wenhai Wang1, Enze Xie2, Xiang Li3, Deng-Ping Fan4?,
+开涛宋3、丁亮5、童路1、平罗2、凌少4
+1南京大学
+2香港大学
+3南京科技大学
+4IIAI 
+5SenseTime Research
+https://github.com/whai362/PVT
+任务
+1. CLS
+2. DET 
+3. SEG...
+
+Conv 1
+Conv 2
+Conv 3
+Conv 4
+(a) CNN ： VGG [53]、ResNet [21]等。
+任务
+1. CLS
+TF-E
+变压器
+块！
+×
+(b)视觉
+
+Paper 7:
+光源引导从未配对数据中去除单图像耀斑
+乔晓天
+Gerhard P. Hancke
+Rynson W.H. Lau
+香港城市大学
+抽象
+因果拍摄的图像通常存在眩光伪影，
+由于意外的反射和光的散射
+相机侧面。但是，由于眩光可能会出现在
+各种形状、位置和颜色，检测和删除-
+完全从图像中获取它们是非常具有挑战性的。 
+现有方法依赖于预先定义的强度和几何形状
+
+Paper 8:
+RDI-Net ：关系动态推理网络
+王焕宇
+李松元
+Shihao Su
+Zequn Qin
+西丽*
+浙江大学
+{huanyuhello, leizungjyun, shihaocs} @ zju.edu.cn
+zequnqin@gmail.com, xilizju@zju.edu.cn ∗
+抽象
+动态推理网络，旨在促进
+假设效率，沿着自适应执行路径前进
+给定样本。 常用方法通常分配一个
+每个卷积块的路由器，并按顺序制作
+逐块执行决策，而不考虑
+
+Paper 9:
+ARAPReg ：学习过程中可能出现的僵化正规化损失
+可变形形状发生器
+Qixing Huang *
+UT Austin
+huangqx@cs.utexas.edu
+黄祥如*
+德州大学奥斯汀分校和麻省理工学院
+xiangruhuang816@gmail.com
+孙波*
+UT Austin
+bosun@cs.utexas.edu
+Zaiwei Zhang
+UT Austin
+zaiweizhang@utexas.edu
+姜俊峰
+河海大学
+jiangjf.hhu@gmail.com
+Chandrajit Bajaj
+UT奥斯汀
+bajaj@cs.utexas.edu
+使用ARAPReg
+不使用ARAPReg
+使用ARAPReg
+不使用ARAPReg
+源
+目标
+图1 ：我们的方法学习形状生成器
+
+Paper 10:
+基于底层特征的弱激活映射的在线细化
+监督对象本地化
+谢金恒、罗成、朱祥平、金子琪、卢伟增、沈林林*
+深圳大学计算机科学与软件工程学院计算机视觉研究所
+深圳市社会机器人人工智能研究所
+广东省智能信息处理重点实验室
+xiejinheng2020@email.szu.edu.cn, xiangping.zhu2010@gmail.com, llshen@szu.edu.cn
+摘要
+我们
+
+Paper 11:
+来自模拟的长期时间一致的未配对视频翻译
+手术3D数据
+Dominik Rivoir1,2 ， Micha Pfeiffer1 ， Reuben Docea1 ， Fiona Kolbinger1,3 ，
+Carina Riediger3 ， J 'urgen Weitz2,3 ， Stefanie Speidel1,2
+1NCT/UCC Dresden, Germany, 2CeTI, TU Dresden, 3University Hospital Dresden
+{dominik.rivoir, micha.pfeiffer, reuben.docea, stefanie.speidel} @ nct-dresden.de
+{fiona.kolbinger, carina.riediger, juergen.weitz} @ uniklinikum-dresden.de
+摘要
+未配对视频翻译的研究具有
+
+Paper 12:
+通过自净重放在嘈杂数据流上不断学习
+Chris Dongjoo Kim *
+Jinseo Jeong *
+Sangwoo Moon
+Gunhee Kim
+首尔国立大学计算机科学与工程系，韩国首尔
+{cdjkim, jinseo, sangwoo.moon} @ vl.snu.ac.kr gunhee@snu.ac.kr
+http://vision.snu.ac.kr/projects/SPR
+摘要
+在现实世界中不断学习必须克服
+许多挑战，其中嘈杂的标签是常见的
+和不可避免的问题。
+在这项工作中，我们提出了一个基于重
+播的连续
+
+Paper 13:
+TempNet ：大规模点云系列的在线语义分割
+Yunsong Zhou 1 Hongzi Zhu 1 *
+李春琴1天开崔1山场2 *郭敏怡1
+1上海交通大学
+2东华大学
+{zhouyunsong, hongzi, supermelcq, cuitiankai, guo-my} @ sjtu.edu.cn changshan@dhu.edu.cn
+抽象
+点时间序列上的在线语义分割
+云框架是自动驾驶的重要任务。
+现有模型侧重于单帧分割，
+无法达到令人满意的部分
+
+Paper 14:
+PlenOctrees用于神经辐射场的实时渲染
+Alex Yu1
+Ruilong Li1,2
+Matthew Tancik1
+Hao Li1,3
+Ren Ng1
+Angjoo Kanazawa1
+1UC伯克利
+2USC创意技术研究所
+3Pinscreen
+摘要
+我们介绍了一种渲染神经辐射场的方法
+（ NeRFs ）实时使用PlenOctrees ，这是一种基于八叉树的
+支持视图相关效果的3D表示。
+我们的方法可以渲染超过150的800 × 800图像
+帧率，比传统帧率快3000倍以上
+NeRF。我们有
+
+Paper 15:
+的熵最大化和元分类
+语义分割中的分布外检测
+Robin Chan、Matthias Rottmann和Hanno Gottschalk
+IZMD ，伍珀塔尔大学数学和自然科学系
+{rchan, rottmann, hgottsch} @ uni-wuppertal.de
+抽象
+语义片段的深度神经网络（ DNN ） -
+图像处理通常经过训练，可以在
+定义的对象类的封闭集。 这与
+设想DNN的“开放世界”设置
+
+Paper 16:
+保留特异性的RGB-D显著性检测
+陶舟1、华竹扶2、耿晨2、易舟3、邓平扇2 *、凌少2
+1PCA实验室，教育部智能感知和高维信息系统重点实验室，
+中国南京科技大学计算机科学与工程学院
+2IIAI ，阿联酋阿布扎比
+3中国东南大学计算机科学与工程学院
+抽象
+RGB-D显著性检测吸引了越来越多的
+紧张，由于我
+
+Paper 17:
+3DVG-Transformer ：点云视觉接地的关系建模
+赵丽晨＊ 1、蔡黛刚＊ 1、吕生† 1、董旭2
+1中国北京航空航天大学软件学院
+2澳大利亚悉尼大学
+{zlc1114, caidaigang, lsheng} @ buaa.edu.cn, dong.xu@sydney.edu.au
+摘要
+3D点云的视觉基础是一种新兴的
+sion和语言任务，使各种应用程序受益
+了解3D视觉世界。
+通过将此任务制定
+为逐个检测的接地问题，批次
+
+Paper 18:
+MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  05 HOURS 06 MINUTES 36 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE
+
+Paper 19:
+MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  05 HOURS 06 MINUTES 35 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE
+
+Paper 20:
+MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  05 HOURS 06 MINUTES 33 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE
+
